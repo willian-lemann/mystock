@@ -5,7 +5,7 @@ import styles from "./index.module.scss";
 
 import { Button, Table } from "antd";
 
-import { ListAllProducts, RemoveProduct } from "../../server/Products";
+import { ListAllProducts, RemoveProduct } from "../../mock/Products";
 
 const Main: React.FC = () => {
   const [loading, setLoading] = useState(false);

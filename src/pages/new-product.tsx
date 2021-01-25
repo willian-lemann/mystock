@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import { Button } from "antd";
 import Link from "next/link";
-import { StoreProduct } from "../server/Products";
+import { StoreProduct } from "../mock/Products";
 
 const NewProduct: React.FC = () => {
   const router = useRouter();
