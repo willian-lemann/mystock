@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Main from "../components/Main";
 
-const index: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <div className="h-screen">
       <Header />
@@ -11,4 +11,4 @@ const index: React.FC = () => {
   );
 };
 
-export default index;
+export default Home;
